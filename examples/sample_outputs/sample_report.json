@@ -1,0 +1,106 @@
+{
+  "document_analysis": {
+    "filename": "sample_contract.docx",
+    "document_type": "Service Agreement",
+    "process_type": "Contract Review",
+    "analysis_timestamp": "2025-01-15T10:30:00Z",
+    "compliance_score": 65.0
+  },
+  "compliance_issues": [
+    {
+      "issue_type": "jurisdiction_violation",
+      "severity": "critical",
+      "description": "Document references English law instead of ADGM law",
+      "location": "Governing Law section, paragraph 6.1",
+      "current_text": "This agreement shall be governed by and construed in accordance with the laws of England and Wales.",
+      "recommended_text": "This agreement shall be governed by and construed in accordance with the laws of the Abu Dhabi Global Market.",
+      "adgm_reference": "ADGM Commercial Regulations 2020, Section 15.2"
+    },
+    {
+      "issue_type": "jurisdiction_violation",
+      "severity": "critical",
+      "description": "Document references English courts instead of ADGM courts",
+      "location": "Jurisdiction section, paragraph 6.2",
+      "current_text": "The parties hereby submit to the exclusive jurisdiction of the courts of England and Wales.",
+      "recommended_text": "The parties hereby submit to the exclusive jurisdiction of the courts of the Abu Dhabi Global Market.",
+      "adgm_reference": "ADGM Commercial Regulations 2020, Section 15.3"
+    },
+    {
+      "issue_type": "missing_clause",
+      "severity": "medium",
+      "description": "Missing ADGM arbitration clause for dispute resolution",
+      "location": "Governing Law and Jurisdiction section",
+      "recommended_text": "Any disputes arising from this agreement shall be resolved through ADGM arbitration procedures in accordance with ADGM regulations.",
+      "adgm_reference": "ADGM Commercial Regulations 2020, Section 16.1"
+    }
+  ],
+  "red_flags": [
+    {
+      "flag_type": "invalid_jurisdiction",
+      "description": "References to non-ADGM jurisdiction (England and Wales)",
+      "risk_level": "high",
+      "impact": "Contract may be unenforceable in ADGM",
+      "suggested_action": "Replace all jurisdiction references with ADGM-compliant language"
+    },
+    {
+      "flag_type": "missing_adgm_references",
+      "description": "No mention of ADGM legal framework or regulations",
+      "risk_level": "medium",
+      "impact": "Document lacks ADGM legal context",
+      "suggested_action": "Add references to relevant ADGM regulations"
+    }
+  ],
+  "checklist_verification": {
+    "process_type": "Contract Review",
+    "required_documents": [
+      "Contract Agreement",
+      "Service Specifications",
+      "Payment Terms",
+      "Termination Clauses"
+    ],
+    "missing_documents": [
+      "Service Specifications (Schedule A referenced but not provided)"
+    ],
+    "completeness_score": 75.0,
+    "user_message": "Document is mostly complete but missing Service Specifications (Schedule A). Please provide detailed service specifications to ensure full compliance."
+  },
+  "rag_enhancements": {
+    "legal_references": [
+      {
+        "regulation": "ADGM Commercial Regulations 2020",
+        "section": "15.2",
+        "title": "Governing Law Requirements",
+        "url": "https://adgm.com/regulations/commercial-regulations-2020",
+        "relevance": "Directly applicable to governing law clauses"
+      },
+      {
+        "regulation": "ADGM Commercial Regulations 2020",
+        "section": "16.1",
+        "title": "Dispute Resolution Procedures",
+        "url": "https://adgm.com/regulations/commercial-regulations-2020",
+        "relevance": "Required for proper dispute resolution clauses"
+      }
+    ],
+    "compliance_guidance": "For ADGM compliance, all contracts must specify ADGM as the governing jurisdiction and include proper dispute resolution procedures. The current document violates these fundamental requirements and should be revised accordingly.",
+    "adgm_links": [
+      "https://adgm.com/regulations",
+      "https://adgm.com/legal-framework",
+      "https://adgm.com/dispute-resolution"
+    ]
+  },
+  "recommendations": [
+    "Immediately replace all references to English law with ADGM law",
+    "Update jurisdiction clauses to reference ADGM courts",
+    "Add ADGM arbitration clause for dispute resolution",
+    "Include references to relevant ADGM regulations",
+    "Provide missing Service Specifications (Schedule A)",
+    "Consider adding ADGM-specific compliance language"
+  ],
+  "next_steps": [
+    "Revise governing law and jurisdiction sections",
+    "Add missing dispute resolution procedures",
+    "Complete service specifications document",
+    "Review final document for ADGM compliance",
+    "Submit for legal review if required"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "process": "Company Incorporation",
+  "documents_uploaded": 7,
+  "required_documents": 7,
+  "missing_documents": [],
+  "completeness_percentage": 100.0,
+  "is_complete": true,
+  "documents": [
+    {
+      "file_name": "Register_of_Members_and_Directors.docx",
+      "document_type": "Register of Members and Directors",
+      "compliance_score": 33.33,
+      "total_issues": 2,
+      "word_count": 27
+    },
+    {
+      "file_name": "UBO_Declaration_Form.docx",
+      "document_type": "UBO Declaration",
+      "compliance_score": 33.33,
+      "total_issues": 2,
+      "word_count": 21
+    },
+    {
+      "file_name": "Incorporation_Application_Form.docx",
+      "document_type": "Incorporation Application",
+      "compliance_score": 33.33,
+      "total_issues": 2,
+      "word_count": 24
+    },
+    {
+      "file_name": "Shareholder_Resolution.docx",
+      "document_type": "Shareholder Resolution",
+      "compliance_score": 33.33,
+      "total_issues": 2,
+      "word_count": 22
+    },
+    {
+      "file_name": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "compliance_score": 13.33,
+      "total_issues": 5,
+      "word_count": 29
+    },
+    {
+      "file_name": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "compliance_score": 13.33,
+      "total_issues": 5,
+      "word_count": 34
+    },
+    {
+      "file_name": "test_case_1.docx",
+      "document_type": "Articles of Association",
+      "compliance_score": 0,
+      "total_issues": 4,
+      "word_count": 114
+    }
+  ],
+  "issues_found": [
+    {
+      "document": "Register_of_Members_and_Directors.docx",
+      "document_type": "Register of Members and Directors",
+      "section": "Jurisdiction",
+      "issue": "Document does not reference ADGM jurisdiction",
+      "severity": "High",
+      "suggestion": "Add explicit reference to ADGM jurisdiction and courts",
+      "adgm_reference": "ADGM Companies Regulations 2020, Art. 6"
+    },
+    {
+      "document": "Register_of_Members_and_Directors.docx",
+      "document_type": "Register of Members and Directors",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "UBO_Declaration_Form.docx",
+      "document_type": "UBO Declaration",
+      "section": "Jurisdiction",
+      "issue": "Document does not reference ADGM jurisdiction",
+      "severity": "High",
+      "suggestion": "Add explicit reference to ADGM jurisdiction and courts",
+      "adgm_reference": "ADGM Companies Regulations 2020, Art. 6"
+    },
+    {
+      "document": "UBO_Declaration_Form.docx",
+      "document_type": "UBO Declaration",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "Incorporation_Application_Form.docx",
+      "document_type": "Incorporation Application",
+      "section": "Jurisdiction",
+      "issue": "Document does not reference ADGM jurisdiction",
+      "severity": "High",
+      "suggestion": "Add explicit reference to ADGM jurisdiction and courts",
+      "adgm_reference": "ADGM Companies Regulations 2020, Art. 6"
+    },
+    {
+      "document": "Incorporation_Application_Form.docx",
+      "document_type": "Incorporation Application",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "Shareholder_Resolution.docx",
+      "document_type": "Shareholder Resolution",
+      "section": "Jurisdiction",
+      "issue": "Document does not reference ADGM jurisdiction",
+      "severity": "High",
+      "suggestion": "Add explicit reference to ADGM jurisdiction and courts",
+      "adgm_reference": "ADGM Companies Regulations 2020, Art. 6"
+    },
+    {
+      "document": "Shareholder_Resolution.docx",
+      "document_type": "Shareholder Resolution",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "section": "Jurisdiction",
+      "issue": "Document does not reference ADGM jurisdiction",
+      "severity": "High",
+      "suggestion": "Add explicit reference to ADGM jurisdiction and courts",
+      "adgm_reference": "ADGM Companies Regulations 2020, Art. 6"
+    },
+    {
+      "document": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "section": "Document Structure",
+      "issue": "Required clause 'resolution text' is missing",
+      "severity": "High",
+      "suggestion": "Add resolution text clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "section": "Document Structure",
+      "issue": "Required clause 'voting results' is missing",
+      "severity": "High",
+      "suggestion": "Add voting results clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "section": "Document Structure",
+      "issue": "Required clause 'signatures' is missing",
+      "severity": "High",
+      "suggestion": "Add signatures clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Board_Resolution.docx",
+      "document_type": "Board Resolution",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'objects clause' is missing",
+      "severity": "High",
+      "suggestion": "Add objects clause clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'directors' is missing",
+      "severity": "High",
+      "suggestion": "Add directors clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'shareholders' is missing",
+      "severity": "High",
+      "suggestion": "Add shareholders clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'amendment procedures' is missing",
+      "severity": "High",
+      "suggestion": "Add amendment procedures clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "Memorandum_of_Association.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Document lacks proper sectioning",
+      "severity": "Low",
+      "suggestion": "Organize content into clear, numbered sections",
+      "adgm_reference": "ADGM Document Standards"
+    },
+    {
+      "document": "test_case_1.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'objects clause' is missing",
+      "severity": "High",
+      "suggestion": "Add objects clause clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "test_case_1.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'directors' is missing",
+      "severity": "High",
+      "suggestion": "Add directors clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "test_case_1.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'shareholders' is missing",
+      "severity": "High",
+      "suggestion": "Add shareholders clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    },
+    {
+      "document": "test_case_1.docx",
+      "document_type": "Articles of Association",
+      "section": "Document Structure",
+      "issue": "Required clause 'amendment procedures' is missing",
+      "severity": "High",
+      "suggestion": "Add amendment procedures clause to comply with ADGM requirements",
+      "adgm_reference": "ADGM Companies Regulations 2020"
+    }
+  ]
+}
